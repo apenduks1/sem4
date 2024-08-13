@@ -2,22 +2,22 @@
 const list = document.querySelector(".list")
 const images = [
     {
-        img: '#',
+        img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
         name: "1",
      
     },
     {
-        img: '#',
+        img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
         name: "2",
        
     },
     {
-        img: '#',
+        img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
         name: "3",
        
 },
 {
-    img: '#',
+    img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
     name: "4",
  
 },
@@ -27,22 +27,22 @@ const images = [
    
 },
 {
-    img: '#',
+    img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
     name: "6",
    
 },
 {
-    img: '#',
+    img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
     name: "7",
  
 },
 {
-    img: '#',
+    img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
     name: "8",
    
 },
 {
-    img: '#',
+    img: 'https://www.google.com/imgres?q=%D0%BA%D0%B2%D1%96%D1%82%D0%B8%3A%20%D0%B2%D0%B8%D0%B4%D0%B8&imgurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fwp-content%2Fuploads%2F2023%2F03%2Fspring-flowers.jpg&imgrefurl=http%3A%2F%2Fsvitdovkola.com.ua%2Fvesnyani-kvity%2F&docid=UYj6xAgnN-yVhM&tbnid=KNjAV8RvWtZ3NM&vet=12ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA..i&w=960&h=640&hcb=2&ved=2ahUKEwjq1sLAt_GHAxUCRPEDHWL0BI0QM3oFCIcBEAA',
     name: "9",
    
 }
