@@ -1,0 +1,10 @@
+.fruits-list li{
+    display: flex;
+    justify-content: center;
+    padding: 300px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    padding:  20px;
+}

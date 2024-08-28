@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="event-counter">
+      <p class="cta">Scroll me</p>
+      <div class="box">
+        <p>No timing function</p>
+        <span class="output vanilla">0</span>
+      </div>
+      <div class="box">
+        <p>Thortteld</p>
+        <span class="output thortteld">0</span>
+      </div>
+      <div class="box">
+        <p>Debounse</p>
+        <span class="output debounse">0</span>
+      </div>
+    </div>
+    <p style="margin-top: 200px">Фільтрація з використанням debounse</p>
+
+    <input  style="margin-top: 200px" type="text" id="search" placeholder="Search..." />
+
+    <ul class="items">
+      <li class="item">Apple</li>
+      <li class="item">Banana</li>
+      <li class="item">Cherry</li>
+      <li class="item">Date</li>
+      <li class="item">Egg</li>
+      <li class="item">Honey</li>
+    </ul>
+
+    <input style="margin-top: 200px" type="text" class="input">
+    <p class="name">Вітаємо, ім’я</p>
+
+    <div id="graph" style="background-color: aliceblue;">
+      <svg width="500" height="300">
+        <circle id="point" cx="50" cy="50" r="5" fill="blue" />
+      </svg>
+    </div>
+    <span id="coord"></span>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
